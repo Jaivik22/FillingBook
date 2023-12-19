@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/internet"
+            android:title="Website" />
+
+
+    </group>
+
+    <!--    <item android:title="Course">-->
+    <!--        <menu>-->
+    <!--            <item-->
+    <!--                android:id="@+id/IT"-->
+    <!--                android:icon="@drawable/itbl"-->
+    <!--                android:title="Information Technology" />-->
+
+    <!--            <item-->
+    <!--                android:id="@+id/CSE"-->
+    <!--                android:icon="@drawable/csebl"-->
+    <!--                android:title="Computer Science Engineering"></item>-->
+
+    <!--            <item-->
+    <!--                android:id="@+id/CE"-->
+    <!--                android:icon="@drawable/ceblank"-->
+    <!--                android:title="Computer Engineering"></item>-->
+    <!--        </menu>-->
+    <!--    </item>-->
+
+    <group android:checkableBehavior="single">
+        <item android:title="Other">
+            <menu>
+                <item
+                    android:id="@+id/rating"
+                    android:icon="@drawable/rating"
+                    android:title="rating" />
+
+                <item
+                    android:id="@+id/help"
+                    android:icon="@drawable/help"
+                    android:title="Help"></item>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Settings"
+        android:icon="@drawable/settings"
+        android:id="@+id/settings"></item>
+
+
+    <item android:title="Logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/logout"
+        >
+
+    </item>
+</menu>

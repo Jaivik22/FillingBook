@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "679162458509",
+    "project_id": "svfs-58e8a",
+    "storage_bucket": "svfs-58e8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679162458509:android:4c0cf33581bac29a890dc4",
+        "android_client_info": {
+          "package_name": "com.example.svfs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679162458509-gf959h68gbkkh2g2prju2ajtbb0sjcln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.svfs",
+            "certificate_hash": "6ccd1646a6d87702f57dd1176fcbe7022a746cad"
+          }
+        },
+        {
+          "client_id": "679162458509-riodi3hnqssa3kprtcohkfgcutcop0n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBModnpK6mt4cCXjFUU1rr6zwAf9jHNegk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679162458509-riodi3hnqssa3kprtcohkfgcutcop0n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

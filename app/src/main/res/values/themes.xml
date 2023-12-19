@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SVFS" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">#02164F</item>
+    </style>
+
+    <!-- Theme with action bar -->
+    <style name="Theme.SVFS" parent="Base.Theme.SVFS">
+        <item name="windowActionBar">true</item> <!-- Added attribute to enable action bar -->
+        <item name="windowNoTitle">false</item> <!-- Added attribute to show activity titles in action bar -->
+    </style>
+
+    <!-- Theme without action bar -->
+    <style name="Theme.SVFS.NoActionBar" parent="Base.Theme.SVFS">
+        <item name="windowActionBar">false</item> <!-- Added attribute to disable action bar -->
+        <item name="windowNoTitle">true</item> <!-- Added attribute to hide activity titles -->
+    </style>
+</resources>
