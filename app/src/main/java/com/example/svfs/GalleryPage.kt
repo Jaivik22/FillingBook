@@ -263,8 +263,7 @@ class GalleryPage : AppCompatActivity() {
                     val photoUrl = document.getString("PhotoUrl")
                     Log.e("photourl1", photoUrl.toString())
                     val photoID = document.id
-
-                            photos.add(Photo(photoID, photoUrl.toString()))
+                    photos.add(Photo(photoID, photoUrl.toString()))
                             Log.e("photourl", photoUrl.toString())
 
                 }
